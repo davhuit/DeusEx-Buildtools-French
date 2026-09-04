@@ -1,0 +1,597 @@
+Log: Log file open, 09/04/26 03:45:56
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Init: Version: 1100
+Init: Compiled: Jan 29 2001 16:45:52
+Init: Command line: 
+Init: Base directory: C:\dev\deusex-buildtools\System\
+Init: Character set: Unicode
+Log: Bound to Core.dll
+Init: Object subsystem initialized
+Log: Cd Path: ..\GOTY_1\
+Init: Computer: HIEIPC
+Init: User: Hiei
+Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=4000.008584 MHz
+Init: CPU Page size=4096, Processors=32
+Init: CPU Detected: Unknown processor (AuthenticAMD)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
+Log: Bound to Editor.dll
+Log: Bound to Engine.dll
+Log: Bound to Window.dll
+Log: Executing Class Editor.MakeCommandlet
+Init: Unreal engine initialized
+Heading: --------------------Core--------------------
+Log: Loading: Package Core
+Heading: --------------------Engine--------------------
+Log: Loading: Package Engine
+Heading: --------------------Editor--------------------
+Log: Loading: Package Editor
+Heading: --------------------Fire--------------------
+Log: Bound to Fire.dll
+Log: Loading: Package Fire
+Heading: --------------------IpDrv--------------------
+Log: Bound to IpDrv.dll
+Log: Loading: Package IpDrv
+Heading: --------------------UWindow--------------------
+Log: Loading: Package UWindow
+Heading: --------------------UBrowser--------------------
+Log: Loading: Package UBrowser
+Heading: --------------------Extension--------------------
+Log: Bound to Extension.dll
+Log: Loading: Package Extension
+Heading: --------------------DeusExUI--------------------
+Log: Loading: Package DeusExUI
+Heading: --------------------ConSys--------------------
+Log: Loading: Package ConSys
+Heading: --------------------DeusExConversations--------------------
+Log: Loading: Package DeusExConversations
+Heading: --------------------DeusExSounds--------------------
+Log: Loading: Package DeusExSounds
+Heading: --------------------DeusExItems--------------------
+Log: Loading: Package DeusExItems
+Log: Loading: Package Effects
+Heading: --------------------DeusExDeco--------------------
+Log: Loading: Package DeusExDeco
+Heading: --------------------DeusExCharacters--------------------
+Log: Loading: Package DeusExCharacters
+Heading: --------------------MPCharacters--------------------
+Log: Loading: Package MPCharacters
+Heading: --------------------DeusExText--------------------
+Log: Loading: Package DeusExText
+Heading: --------------------IpServer--------------------
+Log: Loading: Package IpServer
+Heading: --------------------DeusEx--------------------
+Log: Loading: Package DeusEx
+Log: Loading: Package Ambient
+Log: Loading: Package MoverSFX
+Heading: --------------------DXController--------------------
+Warning: Failed to load 'DXController.u': Can't find file 'DXController.u'
+Warning: Failed loading package: Can't find file 'DXController.u'
+Log: Analyzing...
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ActionBarNav.uc)
+Log: Imported: Class DXController.ActionBarNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\AugInstallNavController.uc)
+Log: Imported: Class DXController.AugInstallNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\AugsNavController.uc)
+Log: Imported: Class DXController.AugsNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\AutoSaveManager.uc)
+Log: Imported: Class DXController.AutoSaveManager
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\AutoSaveToastWindow.uc)
+Log: Imported: Class DXController.AutoSaveToastWindow
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerButtonBarNav.uc)
+Log: Imported: Class DXController.ComputerButtonBarNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenATMDisabledNav.uc)
+Log: Imported: Class DXController.ComputerScreenATMDisabledNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenATMLoginNav.uc)
+Log: Imported: Class DXController.ComputerScreenATMLoginNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenATMWithdrawNav.uc)
+Log: Imported: Class DXController.ComputerScreenATMWithdrawNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenBulletinsNav.uc)
+Log: Imported: Class DXController.ComputerScreenBulletinsNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenEmailNav.uc)
+Log: Imported: Class DXController.ComputerScreenEmailNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenLoginNav.uc)
+Log: Imported: Class DXController.ComputerScreenLoginNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenNavSub.uc)
+Log: Imported: Class DXController.ComputerScreenNavSub
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenSecurityNav.uc)
+Log: Imported: Class DXController.ComputerScreenSecurityNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ComputerScreenSpecialOptionsNav.uc)
+Log: Imported: Class DXController.ComputerScreenSpecialOptionsNav
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ControllerButtonHint.uc)
+Log: Imported: Class DXController.ControllerButtonHint
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ControllerConsole.uc)
+Log: Imported: Class DXController.ControllerConsole
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ControllerCurvePreview.uc)
+Log: Imported: Class DXController.ControllerCurvePreview
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ControllerHintOverlay.uc)
+Log: Imported: Class DXController.ControllerHintOverlay
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ControllerRootWindow.uc)
+Log: Imported: Class DXController.ControllerRootWindow
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ControllerSettings.uc)
+Log: Imported: Class DXController.ControllerSettings
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ConversationNavController.uc)
+Log: Imported: Class DXController.ConversationNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ConvNavController.uc)
+Log: Imported: Class DXController.ConvNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ConWindowActive2.uc)
+Log: Imported: Class DXController.ConWindowActive2
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\DXControllerDebug.uc)
+Log: Imported: Class DXController.DXControllerDebug
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\DXControllerTextures.uc)
+Log: Imported: Class DXController.DXControllerTextures
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\DXCUITheme.uc)
+Log: Imported: Class DXController.DXCUITheme
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\GoalsNavController.uc)
+Log: Imported: Class DXController.GoalsNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\HealthNavController.uc)
+Log: Imported: Class DXController.HealthNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ImagesNavController.uc)
+Log: Imported: Class DXController.ImagesNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\InvNavController.uc)
+Log: Imported: Class DXController.InvNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\KeypadNavController.uc)
+Log: Imported: Class DXController.KeypadNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ListScreenNavController.uc)
+Log: Imported: Class DXController.ListScreenNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\LoadGameNavController.uc)
+Log: Imported: Class DXController.LoadGameNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\LogsNavController.uc)
+Log: Imported: Class DXController.LogsNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MedBotHealthNavController.uc)
+Log: Imported: Class DXController.MedBotHealthNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_AutoSaveEnabled.uc)
+Log: Imported: Class DXController.MenuChoice_AutoSaveEnabled
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_AutoSaveInt.uc)
+Log: Imported: Class DXController.MenuChoice_AutoSaveInt
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_AutoSaveInterval.uc)
+Log: Imported: Class DXController.MenuChoice_AutoSaveInterval
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_AutoSaveMaxSaves.uc)
+Log: Imported: Class DXController.MenuChoice_AutoSaveMaxSaves
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_InvertLookY.uc)
+Log: Imported: Class DXController.MenuChoice_InvertLookY
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveExpoLeft.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveExpoLeft
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveExpoRight.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveExpoRight
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurvePowerLeft.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurvePowerLeft
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurvePowerRight.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurvePowerRight
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveSigmoidMidpointLeft.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveSigmoidMidpointLeft
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveSigmoidMidpointRight.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveSigmoidMidpointRight
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveSigmoidSteepnessLeft.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveSigmoidSteepnessLeft
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveSigmoidSteepnessRight.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveSigmoidSteepnessRight
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveSigmoidStrengthLeft.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveSigmoidStrengthLeft
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveSigmoidStrengthRight.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveSigmoidStrengthRight
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveType.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveType
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveTypeLeft.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveTypeLeft
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickCurveTypeRight.uc)
+Log: Imported: Class DXController.MenuChoice_StickCurveTypeRight
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickDeadzone.uc)
+Log: Imported: Class DXController.MenuChoice_StickDeadzone
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickDeadzoneLeft.uc)
+Log: Imported: Class DXController.MenuChoice_StickDeadzoneLeft
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickDeadzoneRight.uc)
+Log: Imported: Class DXController.MenuChoice_StickDeadzoneRight
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickFloatParam.uc)
+Log: Imported: Class DXController.MenuChoice_StickFloatParam
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuChoice_StickScaleRight.uc)
+Log: Imported: Class DXController.MenuChoice_StickScaleRight
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuFocusOverlay.uc)
+Log: Imported: Class DXController.MenuFocusOverlay
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuMainNavController.uc)
+Log: Imported: Class DXController.MenuMainNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuNavController.uc)
+Log: Imported: Class DXController.MenuNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuScreenAutoSave.uc)
+Log: Imported: Class DXController.MenuScreenAutoSave
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MenuScreenController.uc)
+Log: Imported: Class DXController.MenuScreenController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\MessageBoxNavController.uc)
+Log: Imported: Class DXController.MessageBoxNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\NetworkTerminalNavController.uc)
+Log: Imported: Class DXController.NetworkTerminalNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\NewGameNavController.uc)
+Log: Imported: Class DXController.NewGameNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\OnScreenKeyboardWindow.uc)
+Log: Imported: Class DXController.OnScreenKeyboardWindow
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\OptionsNavController.uc)
+Log: Imported: Class DXController.OptionsNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\RadialMenuWindow.uc)
+Log: Imported: Class DXController.RadialMenuWindow
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\RechargeNavController.uc)
+Log: Imported: Class DXController.RechargeNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\SaveGameNavController.uc)
+Log: Imported: Class DXController.SaveGameNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\SkillsNavController.uc)
+Log: Imported: Class DXController.SkillsNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ThemesLoadNavController.uc)
+Log: Imported: Class DXController.ThemesLoadNavController
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\DXController\Classes\ThemesSaveNavController.uc)
+Log: Imported: Class DXController.ThemesSaveNavController
+Log: Parsing ControllerConsole
+Log: Parsing ControllerRootWindow
+Log: Parsing MenuScreenAutoSave
+Log: Parsing MenuScreenController
+Log: Parsing ConWindowActive2
+Log: Parsing AutoSaveToastWindow
+Log: Parsing ControllerHintOverlay
+Log: Parsing MenuFocusOverlay
+Log: Parsing OnScreenKeyboardWindow
+Log: Parsing RadialMenuWindow
+Log: Parsing MenuChoice_AutoSaveEnabled
+Log: Parsing MenuChoice_AutoSaveInt
+Log: Parsing MenuChoice_AutoSaveInterval
+Log: Parsing MenuChoice_AutoSaveMaxSaves
+Log: Parsing MenuChoice_InvertLookY
+Log: Parsing MenuChoice_StickFloatParam
+Log: Parsing MenuChoice_StickCurveExpoLeft
+Log: Parsing MenuChoice_StickCurveExpoRight
+Log: Parsing MenuChoice_StickCurvePowerLeft
+Log: Parsing MenuChoice_StickCurvePowerRight
+Log: Parsing MenuChoice_StickCurveSigmoidMidpointLeft
+Log: Parsing MenuChoice_StickCurveSigmoidMidpointRight
+Log: Parsing MenuChoice_StickCurveSigmoidSteepnessLeft
+Log: Parsing MenuChoice_StickCurveSigmoidSteepnessRight
+Log: Parsing MenuChoice_StickCurveSigmoidStrengthLeft
+Log: Parsing MenuChoice_StickCurveSigmoidStrengthRight
+Log: Parsing MenuChoice_StickScaleRight
+Log: Parsing MenuChoice_StickCurveType
+Log: Parsing MenuChoice_StickCurveTypeLeft
+Log: Parsing MenuChoice_StickCurveTypeRight
+Log: Parsing MenuChoice_StickDeadzone
+Log: Parsing MenuChoice_StickDeadzoneLeft
+Log: Parsing MenuChoice_StickDeadzoneRight
+Log: Parsing ControllerCurvePreview
+Log: Parsing ActionBarNav
+Log: Parsing ComputerButtonBarNav
+Log: Parsing ControllerButtonHint
+Log: Parsing MenuNavController
+Log: Parsing AugInstallNavController
+Log: Parsing AugsNavController
+Log: Parsing ConversationNavController
+Log: Parsing ConvNavController
+Log: Parsing GoalsNavController
+Log: Parsing HealthNavController
+Log: Parsing ImagesNavController
+Log: Parsing InvNavController
+Log: Parsing KeypadNavController
+Log: Parsing ListScreenNavController
+Log: Parsing LoadGameNavController
+Log: Parsing SaveGameNavController
+Log: Parsing ThemesLoadNavController
+Log: Parsing ThemesSaveNavController
+Log: Parsing LogsNavController
+Log: Parsing MedBotHealthNavController
+Log: Parsing MenuMainNavController
+Log: Parsing MessageBoxNavController
+Log: Parsing NetworkTerminalNavController
+Log: Parsing NewGameNavController
+Log: Parsing OptionsNavController
+Log: Parsing RechargeNavController
+Log: Parsing SkillsNavController
+Log: Parsing AutoSaveManager
+Log: Parsing ComputerScreenNavSub
+Log: Parsing ComputerScreenATMDisabledNav
+Log: Parsing ComputerScreenATMLoginNav
+Log: Parsing ComputerScreenATMWithdrawNav
+Log: Parsing ComputerScreenBulletinsNav
+Log: Parsing ComputerScreenEmailNav
+Log: Parsing ComputerScreenLoginNav
+Log: Parsing ComputerScreenSecurityNav
+Log: Parsing ComputerScreenSpecialOptionsNav
+Log: Parsing ControllerSettings
+Log: Parsing DXControllerDebug
+Log: Parsing DXControllerTextures
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\a.pcx)
+Log: Imported Texture DXController.XboxSeries.A
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\b.pcx)
+Log: Imported Texture DXController.XboxSeries.B
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\x.pcx)
+Log: Imported Texture DXController.XboxSeries.X
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\y.pcx)
+Log: Imported Texture DXController.XboxSeries.Y
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\back.pcx)
+Log: Imported Texture DXController.XboxSeries.back
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\share.pcx)
+Log: Imported Texture DXController.XboxSeries.share
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\start.pcx)
+Log: Imported Texture DXController.XboxSeries.Start
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\dpad.pcx)
+Log: Imported Texture DXController.XboxSeries.dpad
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\dpad_up.pcx)
+Log: Imported Texture DXController.XboxSeries.dpad_up
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\dpad_down.pcx)
+Log: Imported Texture DXController.XboxSeries.dpad_down
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\dpad_left.pcx)
+Log: Imported Texture DXController.XboxSeries.dpad_left
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\dpad_right.pcx)
+Log: Imported Texture DXController.XboxSeries.dpad_right
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\lb.pcx)
+Log: Imported Texture DXController.XboxSeries.lb
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\ls.pcx)
+Log: Imported Texture DXController.XboxSeries.ls
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\lt.pcx)
+Log: Imported Texture DXController.XboxSeries.lt
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\rb.pcx)
+Log: Imported Texture DXController.XboxSeries.RB
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\rs.pcx)
+Log: Imported Texture DXController.XboxSeries.rs
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\rt.pcx)
+Log: Imported Texture DXController.XboxSeries.RT
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\WheelPlate.pcx)
+Log: Imported Texture DXController.Wheel.WheelPlate
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\Veil.pcx)
+Log: Imported Texture DXController.UI.Veil
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge0.pcx)
+Log: Imported Texture DXController.Wheel.Wedge0
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge1.pcx)
+Log: Replaced palette Palette43 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge1
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge2.pcx)
+Log: Replaced palette Palette45 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge2
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge3.pcx)
+Log: Replaced palette Palette47 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge3
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge4.pcx)
+Log: Replaced palette Palette49 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge4
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge5.pcx)
+Log: Replaced palette Palette51 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge5
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge6.pcx)
+Log: Replaced palette Palette53 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge6
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge7.pcx)
+Log: Replaced palette Palette55 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge7
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge8.pcx)
+Log: Replaced palette Palette57 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge8
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\wedge9.pcx)
+Log: Replaced palette Palette59 with Palette41
+Log: Imported Texture DXController.Wheel.Wedge9
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_6_1.pcx)
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_6_1
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_6_2.pcx)
+Log: Replaced palette Palette63 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_6_2
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_6_3.pcx)
+Log: Replaced palette Palette65 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_6_3
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_6_4.pcx)
+Log: Replaced palette Palette67 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_6_4
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_6_5.pcx)
+Log: Replaced palette Palette69 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_6_5
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_6_6.pcx)
+Log: Replaced palette Palette71 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_6_6
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_7_1.pcx)
+Log: Replaced palette Palette73 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_7_1
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_7_2.pcx)
+Log: Replaced palette Palette75 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_7_2
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_7_3.pcx)
+Log: Replaced palette Palette77 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_7_3
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_7_4.pcx)
+Log: Replaced palette Palette79 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_7_4
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_7_5.pcx)
+Log: Replaced palette Palette81 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_7_5
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_7_6.pcx)
+Log: Replaced palette Palette83 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_7_6
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_8_1.pcx)
+Log: Replaced palette Palette85 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_8_1
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_8_2.pcx)
+Log: Replaced palette Palette87 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_8_2
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_8_3.pcx)
+Log: Replaced palette Palette89 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_8_3
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_8_4.pcx)
+Log: Replaced palette Palette91 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_8_4
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_8_5.pcx)
+Log: Replaced palette Palette93 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_8_5
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_8_6.pcx)
+Log: Replaced palette Palette95 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_8_6
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_9_1.pcx)
+Log: Replaced palette Palette97 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_9_1
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_9_2.pcx)
+Log: Replaced palette Palette99 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_9_2
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_9_3.pcx)
+Log: Replaced palette Palette101 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_9_3
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_9_4.pcx)
+Log: Replaced palette Palette103 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_9_4
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_9_5.pcx)
+Log: Replaced palette Palette105 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_9_5
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_9_6.pcx)
+Log: Replaced palette Palette107 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_9_6
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_10_1.pcx)
+Log: Replaced palette Palette109 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_10_1
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_10_2.pcx)
+Log: Replaced palette Palette111 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_10_2
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_10_3.pcx)
+Log: Replaced palette Palette113 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_10_3
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_10_4.pcx)
+Log: Replaced palette Palette115 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_10_4
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_10_5.pcx)
+Log: Replaced palette Palette117 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_10_5
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_10_6.pcx)
+Log: Replaced palette Palette119 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_10_6
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_12_1.pcx)
+Log: Replaced palette Palette121 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_12_1
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_12_2.pcx)
+Log: Replaced palette Palette123 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_12_2
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_12_3.pcx)
+Log: Replaced palette Palette125 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_12_3
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_12_4.pcx)
+Log: Replaced palette Palette127 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_12_4
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_12_5.pcx)
+Log: Replaced palette Palette129 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_12_5
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuControllerBackground_12_6.pcx)
+Log: Replaced palette Palette131 with Palette61
+Log: Imported Texture DXController.MenuControllerBackground.MenuControllerBackground_12_6
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuAutoSaveBackground_1.pcx)
+Log: Imported Texture DXController.MenuAutoSaveBackground.MenuAutoSaveBackground_1
+Log: FactoryCreateBinary: Texture with TextureFactory (0 0 Textures\MenuAutoSaveBackground_2.pcx)
+Log: Replaced palette Palette135 with Palette133
+Log: Imported Texture DXController.MenuAutoSaveBackground.MenuAutoSaveBackground_2
+Log: Parsing DXCUITheme
+Log: Compiling ControllerConsole
+Log: Compiling ControllerRootWindow
+Log: Compiling MenuScreenAutoSave
+Log: Compiling MenuScreenController
+Log: Compiling ConWindowActive2
+Log: Compiling AutoSaveToastWindow
+Log: Compiling ControllerHintOverlay
+Log: Compiling MenuFocusOverlay
+Log: Compiling OnScreenKeyboardWindow
+Log: Compiling RadialMenuWindow
+Log: Compiling MenuChoice_AutoSaveEnabled
+Log: Compiling MenuChoice_AutoSaveInt
+Log: Compiling MenuChoice_AutoSaveInterval
+Log: Compiling MenuChoice_AutoSaveMaxSaves
+Log: Compiling MenuChoice_InvertLookY
+Log: Compiling MenuChoice_StickFloatParam
+Log: Compiling MenuChoice_StickCurveExpoLeft
+Log: Compiling MenuChoice_StickCurveExpoRight
+Log: Compiling MenuChoice_StickCurvePowerLeft
+Log: Compiling MenuChoice_StickCurvePowerRight
+Log: Compiling MenuChoice_StickCurveSigmoidMidpointLeft
+Log: Compiling MenuChoice_StickCurveSigmoidMidpointRight
+Log: Compiling MenuChoice_StickCurveSigmoidSteepnessLeft
+Log: Compiling MenuChoice_StickCurveSigmoidSteepnessRight
+Log: Compiling MenuChoice_StickCurveSigmoidStrengthLeft
+Log: Compiling MenuChoice_StickCurveSigmoidStrengthRight
+Log: Compiling MenuChoice_StickScaleRight
+Log: Compiling MenuChoice_StickCurveType
+Log: Compiling MenuChoice_StickCurveTypeLeft
+Log: Compiling MenuChoice_StickCurveTypeRight
+Log: Compiling MenuChoice_StickDeadzone
+Log: Compiling MenuChoice_StickDeadzoneLeft
+Log: Compiling MenuChoice_StickDeadzoneRight
+Log: Compiling ControllerCurvePreview
+Log: Compiling ActionBarNav
+Log: Compiling ComputerButtonBarNav
+Log: Compiling ControllerButtonHint
+Log: Compiling MenuNavController
+Log: Compiling AugInstallNavController
+Log: Compiling AugsNavController
+Log: Compiling ConversationNavController
+Log: Compiling ConvNavController
+Log: Compiling GoalsNavController
+Log: Compiling HealthNavController
+Log: Compiling ImagesNavController
+Log: Compiling InvNavController
+Log: Compiling KeypadNavController
+Log: Compiling ListScreenNavController
+Log: Compiling LoadGameNavController
+Log: Compiling SaveGameNavController
+Log: Compiling ThemesLoadNavController
+Log: Compiling ThemesSaveNavController
+Log: Compiling LogsNavController
+Log: Compiling MedBotHealthNavController
+Log: Compiling MenuMainNavController
+Log: Compiling MessageBoxNavController
+Log: Compiling NetworkTerminalNavController
+Log: Compiling NewGameNavController
+Log: Compiling OptionsNavController
+Log: Compiling RechargeNavController
+Log: Compiling SkillsNavController
+Log: Compiling AutoSaveManager
+Log: Compiling ComputerScreenNavSub
+Log: Compiling ComputerScreenATMDisabledNav
+Log: Compiling ComputerScreenATMLoginNav
+Log: Compiling ComputerScreenATMWithdrawNav
+Log: Compiling ComputerScreenBulletinsNav
+Log: Compiling ComputerScreenEmailNav
+Log: Compiling ComputerScreenLoginNav
+Log: Compiling ComputerScreenSecurityNav
+Log: Compiling ComputerScreenSpecialOptionsNav
+Log: Compiling ControllerSettings
+Log: Compiling DXControllerDebug
+Log: Compiling DXControllerTextures
+Log: Compiling DXCUITheme
+Log: Success: Compiled 19478 line(s), 1865 statement(s).
+
+Warning: Failed to load '..\SystemConform\DXController.u': Can't find file '..\SystemConform\DXController.u'
+Log: Save=52.322389
+Log: Moving 'Save.tmp' to 'DXController.u'
+Log: Success - 0 error(s), 0 warnings
+Exit: Preparing to exit.
+Log: Purging garbage
+Log: Unbound to Core.dll
+Log: Unbound to Editor.dll
+Log: Unbound to Engine.dll
+Log: Unbound to Window.dll
+Exit: Editor shut down
+Log: Unloading: Package Core
+Log: Unloading: Package Engine
+Log: Unloading: Package Editor
+Log: Unbound to Fire.dll
+Log: Unloading: Package Fire
+Log: Unbound to IpDrv.dll
+Log: Unloading: Package IpDrv
+Log: Unloading: Package UWindow
+Log: Unloading: Package UBrowser
+Log: Unbound to Extension.dll
+Log: Unloading: Package Extension
+Log: Unloading: Package DeusExUI
+Log: Unloading: Package ConSys
+Log: Unloading: Package DeusExConversations
+Log: Unloading: Package DeusExSounds
+Log: Unloading: Package DeusExItems
+Log: Unloading: Package Effects
+Log: Unloading: Package DeusExDeco
+Log: Unloading: Package DeusExCharacters
+Log: Unloading: Package MPCharacters
+Log: Unloading: Package DeusExText
+Log: Unloading: Package IpServer
+Log: Unloading: Package DeusEx
+Log: Unloading: Package Ambient
+Log: Unloading: Package MoverSFX
+Log: Garbage: objects: 43875->0; refs: 0
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Allocation checking disabled
+Uninitialized: Log file closed, 09/04/26 03:45:59
