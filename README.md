@@ -17,6 +17,8 @@ Télécharge depuis https://visualstudio.microsoft.com/fr/downloads/ → "Build 
 ou désactiver des fonctionnalités Windows") que "Sous-système Windows pour Linux" et "Plateforme de
 machine virtuelle" (ou "Plateforme d'ordinateur virtuel") sont bien cochées, sinon coche-les et redémarre.
 
+(Depuis la version 1.6.1 du mod, il faut également ajouter : "C++ MFC pour les derniers outils de build v143 (x86 et x64)")
+
 Une fois Ubuntu installé, crée ton nom d'utilisateur/mot de passe Linux quand demandé.
 
 # 1. Cloner les deux dépôts
