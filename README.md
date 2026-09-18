@@ -24,13 +24,13 @@ Une fois Ubuntu installé, crée ton nom d'utilisateur/mot de passe Linux quand 
 # 1. Cloner les deux dépôts
 mkdir -p /mnt/c/dev
 cd /mnt/c/dev
-git clone https://github.com/davhuit/DxController-Davhuit.git
-git clone https://github.com/davhuit/DeusEx-BuildTools-Davhuit.git
+git clone https://github.com/davhuit/DxController-French.git
+git clone https://github.com/davhuit/DeusEx-BuildTools-French.git
 
 # 2. Relier gamedir
-cd /mnt/c/dev/DxController-Davhuit
+cd /mnt/c/dev/DxController-French
 rm -f gamedir
-ln -s /mnt/c/dev/DeusEx-BuildTools-Davhuit gamedir
+ln -s /mnt/c/dev/DeusEx-BuildTools-French gamedir
 
 # 3. Localiser MSBuild (depuis cmd.exe)
 dir /s /b "C:\Program Files (x86)\Microsoft Visual Studio\*MSBuild.exe" 2>nul
@@ -38,6 +38,8 @@ dir /s /b "C:\Program Files (x86)\Microsoft Visual Studio\*MSBuild.exe" 2>nul
 # 4. Build
 export MSBUILD="/mnt/c/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/MSBuild.exe"
 nix run .#sync-and-build
+
+(Note : pour éviter de retaper la commande export MSBUILD à chaque fois, lancer la commande sivante : "echo 'export MSBUILD="/mnt/c/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/MSBuild.exe"' >> ~/.bashrc" ensuite, soit faire "source ~/.bashrc" ou relancer WSL)
 
 # 5. Installer dans le jeu
 cp gamedir/System/DeusEx.u gamedir/System/DXController.u gamedir/System/DeusEx.exe gamedir/System/SDL3.dll "/mnt/c/Program Files (x86)/Steam/steamapps/common/Deus Ex/System/"
