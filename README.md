@@ -42,4 +42,4 @@ nix run .#sync-and-build
 (Note : pour éviter de retaper la commande export MSBUILD à chaque fois, lancer la commande sivante : "echo 'export MSBUILD="/mnt/c/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/MSBuild.exe"' >> ~/.bashrc" ensuite, soit faire "source ~/.bashrc" ou relancer WSL)
 
 # 5. Installer dans le jeu
-cp gamedir/System/DeusEx.u gamedir/System/DXController.u gamedir/System/DeusEx.exe gamedir/System/SDL3.dll "/mnt/c/Program Files (x86)/Steam/steamapps/common/Deus Ex/System/"
+cp gamedir/System/DeusEx.frt_u gamedir/System/DXController.u gamedir/System/DeusEx.exe gamedir/System/SDL3.dll "/mnt/c/Program Files (x86)/Steam/steamapps/common/Deus Ex/System/"
