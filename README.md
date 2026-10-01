@@ -37,6 +37,7 @@ dir /s /b "C:\Program Files (x86)\Microsoft Visual Studio\*MSBuild.exe" 2>nul
 
 # 4. Build
 export MSBUILD="/mnt/c/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/MSBuild.exe"
+git status --short
 nix run .#sync-and-build
 
 (Note : pour éviter de retaper la commande export MSBUILD à chaque fois, lancer la commande sivante : "echo 'export MSBUILD="/mnt/c/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/MSBuild.exe"' >> ~/.bashrc" ensuite, soit faire "source ~/.bashrc" ou relancer WSL)
